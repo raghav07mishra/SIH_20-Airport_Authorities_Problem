@@ -6,4 +6,8 @@
 
 <br/>
 
+### PR Can be created for updation in database using firebase / PHP or any other database.
+
+<br/>
+
 ![OTP_Mail](https://user-images.githubusercontent.com/54187793/102013406-fa048400-3d75-11eb-96c4-e48b25748777.JPG)
