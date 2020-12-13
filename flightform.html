@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/flightform.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        </head>
+    <body style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/form.jpg);align-content: center;">
+        
+        <div class="content">
+          <h1 style="text-align: center;color: white">Flight Technical Data</h1>
+     </div></header>
+	 <form action="http://localhost/index/website/form.php" method="POST" >
+    <div class="flightform">
+        <div class="grp">
+         <div class="radio-btn">
+            <p style="color: white" ><b>Airline Name</b></p>
+            <input type="text" name="airline_name" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white"><b>Flight No.</b></p>
+            <input type="number"  name="flight_no" class="form-control" >
+            
+        </div>
+            </div>
+        <div class="grp1">
+         <div class="radio-btn">
+            <p style="color: white"><b>Depart. Air Code</b></p>
+            <input type="number"name="dcode" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white" ><b>Arrival Air Code</b></p>
+            <input type="text" name="acode" class="form-control" >
+            
+        </div>
+            </div>
+            
+        <div class="radio-btn">
+            <p style="color: white" ><b>Flight Duration</b></p>
+        <input type="radio" class="btn" name="check" checked="checked" value=" 1-2 Hrs"><span> 1-2 Hrs</span>
+            <input type="radio" class="btn" name="check" checked="checked" value="2-4 Hrs"><span>2-4 Hrs</span>
+        <input type="radio" class="btn" name="check" checked="checked"value="4-6 Hrs"><span> 4-6 Hrs</span>
+        <input type="radio" class="btn" name="check" checked="checked" value="6 Hrs +"><span> 6 Hrs +</span>    
+        </div>
+        <div class="grp2">
+         <div class="radio-btn">
+             
+            <p style="color: white" ><b>On Board Passengers</b></p>
+            <input type="number" name="on_pass" class="form-control" >
+             </div>  
+         <div class="radio-btn">
+            <p style="color: white" ><b>Off Board Passengers</b></p>
+            <input type="number"name="off_pass" class="form-control" >
+                  </div>
+  
+        </div>
+         <div class="radio-btn">
+            <p style="color: white"><b>Fuel Capacity</b></p>
+            <input type="number" name="fuel_capacity" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white" ><b>Maximum Baggage Capacity</b></p>
+            <input type="number" name="bagg_capacity" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white" ><b>Wind Direction</b></p>
+            <input type="text" name="wind_dir" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white"><b>Typre Pressure</b></p>
+            <input type="text" name="tyre_p" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white" ><b>Waste Flush Capacity</b></p>
+            <input type="text" name="waste" class="form-control" >
+            
+        </div>
+         <div class="radio-btn">
+            <p style="color: white"><b>Radar Condition</b></p>
+            <input type="text" name="radar" class="form-control" >
+            
+        </div>
+         <div class="radio-btn1">
+            <p style="color: white" ><b>System Check</b></p>
+             <input type="radio" class="btn1" name="check1" checked="checked1"value="YES"><span> YES</span>
+            <input type="radio" class="btn1" name="check1" checked="checked1" value="NO"><span>NO</span>
+            
+        </div>
+         <div class="radio-btn2">
+            <p style="color: white"><b>Wireless Communication</b></p>
+             <input type="radio" class="btn2" name="check2" checked="checked2"value="Established"><span> Established</span>
+            <input type="radio" class="btn2" name="check2" checked="checked2" value="facing problem"><span>Facing Minor problem</span>
+            
+        </div>
+        
+         <div class="radio-btn3">
+            <p style="color: white"><b>Flight Instrument Check</b></p>
+            <input type="radio" class="btn3" name="check3" checked="checked3" value="YES"><span> YES</span>
+            <input type="radio" class="btn3" name="check3" checked="checked3" value="NO"><span>NO</span>
+            
+        </div>
+            
+          <div class="radio-btn4">
+            <p style="color: white"><b>Flight Data Check</b></p>
+            <input type="radio" class="btn4" name="check4" checked="checked4" value="YES"><span> YES</span>
+            <input type="radio" class="btn4" name="check4" checked="checked4" value="NO"><span>NO</span>
+            
+        </div>
+            
+          <div class="radio-btn5">
+            <p style="color: white"><b>Breaking System Check</b></p>
+             <input type="radio" class="btn5" name="check5" checked="checked5"value="YES"><span> YES</span>
+            <input type="radio" class="btn5" name="check5" checked="checked5"value="NO"><span>NO</span>
+            
+        </div>
+          <div class="radio-btn6">
+            <p style="color: white"><b>Light Condition Check</b></p>
+            <input type="radio" class="btn6" name="check6" checked="checked6"value="YES"><span> YES</span>
+            <input type="radio" class="btn6" name="check6" checked="checked6"value="NO"><span>NO</span>
+            
+        </div>
+            
+        
+        
+        </div>
+        <div class="submit">
+	   <input type="submit" value="submit">
+            </div>
+		</form>
+    
+    </body>
+</html>

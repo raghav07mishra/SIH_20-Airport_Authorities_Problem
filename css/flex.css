@@ -1,0 +1,306 @@
+body
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+}
+
+.Box
+{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.Box1
+{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.Box2
+{
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.Box3
+{
+    grid-column: 4;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.Box4
+{
+    grid-column: 5;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.Box5
+{
+    grid-column: 1;
+    grid-row: 2;
+     position: relative;
+    bottom: -80px;
+    text-align: center;
+    font-size: 20px;
+}
+.Box6
+{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    position: relative;
+    bottom: -80px;
+    font-size: 20px;
+}
+.Box7
+{
+    grid-column: 3;
+    grid-row: 2;
+     position: relative;
+    bottom: -80px;
+    text-align: center;
+    font-size: 20px;
+}
+.Box8
+{
+    grid-column: 4;
+    grid-row: 2;
+      position: relative;
+    bottom: -80px;
+    text-align: center;
+    font-size: 20px;
+}
+.Box9
+{
+    grid-column: 5;
+    grid-row: 2;
+      position: relative;
+    bottom: -80px;
+    text-align: center;
+    font-size: 20px;
+}
+.Box10
+{
+    grid-column: 1;
+    grid-row: 3;
+     position: relative;
+    bottom: -160px;
+    text-align: center;
+    font-size: 20px;
+}
+.Box11
+{ 
+    grid-column: 2;
+    grid-row: 3;
+    position: relative;
+    bottom: -160px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box12
+{ 
+    grid-column: 3;
+    grid-row: 3;
+    position: relative;
+    bottom: -160px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box13
+{ 
+    grid-column: 4;
+    grid-row: 3;
+    position: relative;
+    bottom: -160px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box14
+{ 
+    grid-column: 5;
+    grid-row: 3;
+    position: relative;
+    bottom: -160px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box15
+{ 
+    grid-column: 1;
+    grid-row: 4;
+   position: relative;
+    bottom: -240px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box16
+{ 
+    grid-column: 2;
+    grid-row: 4;
+    position: relative;
+    bottom: -240px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box17
+{ 
+    grid-column: 3;
+    grid-row: 4;
+    position: relative;
+    bottom: -240px;
+    text-align: center;
+    font-size: 20px;
+}
+.Box18
+{ 
+    grid-column: 4;
+    grid-row: 4;
+    position: relative;
+    bottom: -240px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box19
+{ 
+    grid-column: 5;
+    grid-row: 4;
+    position: relative;
+    bottom: -240px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box20
+{ 
+    grid-column: 1;
+    grid-row: 5;
+    position: relative;
+    bottom: -340px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box21
+{ 
+    grid-column: 2;
+    grid-row: 5;
+    position: relative;
+    bottom: -340px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box22
+{ 
+    grid-column: 3;
+    grid-row: 5;
+    position: relative;
+    bottom: -340px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box23
+{ 
+    grid-column: 4;
+    grid-row: 5;
+    position: relative;
+    bottom: -340px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box24
+{ 
+    grid-column: 5;
+    grid-row: 5;
+    position: relative;
+    bottom: -340px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box25
+{ 
+    grid-column: 1;
+    grid-row: 6;
+    position: relative;
+    bottom: -440px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box26
+{ 
+    grid-column: 2;
+    grid-row: 6;
+    position: relative;
+    bottom: -440px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box27
+{ 
+    grid-column: 3;
+    grid-row: 6;
+    position: relative;
+    bottom: -440px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box28
+{ 
+    grid-column: 4;
+    grid-row: 6;
+    position: relative;
+    bottom: -440px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box29
+{ 
+    grid-column: 5;
+    grid-row: 6;
+    position: relative;
+    bottom: -440px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Box30
+{ 
+    grid-column: 1;
+    grid-row: 7;
+    position: relative;
+    bottom: -540px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.foot
+{
+    text-align: center;
+    position: relative;
+    bottom: -0px;
+    left: 100%;
+    font-size: 35px;
+    font-family: fantasy;
+}
+
